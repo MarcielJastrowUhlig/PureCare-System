@@ -1,5 +1,3 @@
-package pureCareSystem;
-
 // Atributos: ID, nome de usuário, senha, email.
 
 public class Usuario {
