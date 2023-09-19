@@ -4,7 +4,7 @@ public class Usuario {
 	private String nomeUsuario;
 	private String senhaUsuario;
 	private String emailUsuario;
-	
+
 	public Usuario(String nomeUsuario, String senhaUsuario, String emailUsuario) {
 		this.nomeUsuario = nomeUsuario;
 		this.senhaUsuario = senhaUsuario;
@@ -41,5 +41,3 @@ public class Usuario {
 		this.emailUsuario = emailUsuario;
 	}
 }
-
-
