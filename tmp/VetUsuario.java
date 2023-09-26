@@ -1,5 +1,8 @@
+package tmp;
 
 //Métodos: Registrar, fazer login, atualizar perfil.
+
+import Classes.Usuario;
 
 public class VetUsuario {
     private Usuario[] vetorUsuario;

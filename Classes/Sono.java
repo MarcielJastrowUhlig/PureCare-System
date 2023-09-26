@@ -1,10 +1,11 @@
+package Classes;
 //Atributos: Horário de dormir, horário de acordar, duração.
 
 public class Sono {
 	private String horaDormir;
 	private String horaAcordar;
 	private String duracao;
-	
+
 	public Sono(String horaDormir, String horaAcordar, String duracao) {
 		this.horaDormir = horaDormir;
 		this.horaAcordar = horaAcordar;

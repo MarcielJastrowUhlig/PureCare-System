@@ -1,10 +1,11 @@
+package Classes;
 //Atributos: Nome da vacina, data da próxima dose, data da última dose.
 
 public class Vacinas {
 	private String nomeVacina;
 	private String dataProxVacina;
 	private String dataUltDose;
-	
+
 	public Vacinas(String nomeVacina, String dataProxVacina, String dataUltDose) {
 		this.nomeVacina = nomeVacina;
 		this.dataProxVacina = dataProxVacina;

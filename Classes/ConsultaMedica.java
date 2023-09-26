@@ -1,10 +1,11 @@
+package Classes;
 //Atributos: Data da consulta, nome do médico, motivo da consulta.
 
 public class ConsultaMedica {
 	private String dataConsulta;
 	private String nomeMedico;
 	private String motivoConsulta;
-	
+
 	public ConsultaMedica(String dataConsulta, String nomeMedico, String motivoConsulta) {
 		this.dataConsulta = dataConsulta;
 		this.nomeMedico = nomeMedico;

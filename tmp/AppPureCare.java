@@ -1,4 +1,8 @@
+package tmp;
+
 import java.util.Scanner;
+
+import Classes.Usuario;
 
 public class AppPureCare {
 
@@ -45,9 +49,9 @@ public class AppPureCare {
                             aux = scan.nextLine();
                             if (vetUsuario.getUsuario(i).getSenhaUsuario().equalsIgnoreCase(aux)) {
                                 System.out.println("Login feito com sucesso!");
-                            }else{
-                            System.out.println("Senha errada!");
-                        }
+                            } else {
+                                System.out.println("Senha errada!");
+                            }
                         }
 
                     }
@@ -60,6 +64,7 @@ public class AppPureCare {
                     for (int i = 0; i < vetUsuario.getnElem(); i++) {
                         System.out.println(vetUsuario.getUsuario(i));
                     }
+                    break;
                 case 0:
                     System.out.println("Encerrando o aplicativo.");
                     scan.close();

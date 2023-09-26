@@ -1,3 +1,4 @@
+package Classes;
 //Atributos: ID, nome, data de nascimento, gênero, alergias, condições médicas.
 
 public class Crianca {

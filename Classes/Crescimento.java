@@ -1,3 +1,4 @@
+package Classes;
 //Atributos: Peso, altura, circunferência da cabeça, data.
 
 public class Crescimento {
@@ -5,8 +6,8 @@ public class Crescimento {
 	private double alturaCresc;
 	private double circunferenciaCabeca;
 	private String dataCresc;
-	
-	public Crescimento(double pesoCresc ,double alturaCresc ,double circunferenciaCabeca, String dataCresc) {
+
+	public Crescimento(double pesoCresc, double alturaCresc, double circunferenciaCabeca, String dataCresc) {
 		this.pesoCresc = pesoCresc;
 		this.alturaCresc = alturaCresc;
 		this.circunferenciaCabeca = circunferenciaCabeca;
